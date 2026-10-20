@@ -11,23 +11,20 @@ Element Text Editor lets you change text directly on a webpage. Right-click text
 - Includes a toolbar popup with quick instructions.
 - Makes no network requests and stores no page text.
 
-## Install in Microsoft Edge
+Element Text Editor is intended for desktop Chromium-based browsers that support Manifest V3 and unpacked extensions, including Microsoft Edge, Google Chrome, Brave, Opera, and Vivaldi.
 
-1. Select **Code** on this repository's GitHub page, then **Download ZIP**, and extract the archive. You can also clone the repository with Git.
-2. Open `edge://extensions` in Edge.
+## Install in Browser
+
+1. On this repository's GitHub page, select **Code**, then **Download ZIP**. Extract the archive. You can also clone the repository with Git.
+2. Open your browser's extension manager:
+   - Microsoft Edge: `edge://extensions`
+   - Google Chrome: `chrome://extensions`
+   - Brave: `brave://extensions`
+   - Opera: `opera:extensions`
+   - Vivaldi: `vivaldi://extensions` or **Menu > Tools > Extensions**
 3. Turn on **Developer mode**.
-4. Select **Load unpacked**.
-5. Choose the extracted `Element-Text-Editor` folder. Select the folder that contains `manifest.json`.
-6. Reload pages that were open before installation.
-
-## Install in Google Chrome
-
-1. Select **Code** on this repository's GitHub page, then **Download ZIP**, and extract the archive. You can also clone the repository with Git.
-2. Open `chrome://extensions`.
-3. Turn on **Developer mode**.
-4. Select **Load unpacked**.
-5. Choose the extracted `Element-Text-Editor` folder containing `manifest.json`.
-6. Reload pages that were open before installation.
+4. Select **Load unpacked** (called **Load Unpacked Extension** in Opera) and choose the extracted `Element-Text-Editor` folder that contains `manifest.json`.
+5. Reload any pages that were already open.
 
 ## Use it
 
