@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
+__pycache__/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
